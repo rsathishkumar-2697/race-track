@@ -1,0 +1,38 @@
+/* RaceTrackPage.css */
+
+.race-track-page {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.race-track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.participant-lane {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.track {
+  position: relative;
+  height: 30px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.runner {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 20px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
